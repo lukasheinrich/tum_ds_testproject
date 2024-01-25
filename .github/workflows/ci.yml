@@ -4,15 +4,7 @@ jobs:
   run_tests:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
     - run: echo hello world
     - run: ls -lrt .
-  do_somerhing_else:
-    runs-on: ubuntu-latest
-    steps:
-    - run: echo doing something else
-  dependent_jobs:
-    runs-on: ubuntu-latest
-    needs: run_tests
-    steps:
-    - run: echo are you sure?
+
+
