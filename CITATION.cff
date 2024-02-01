@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Heinrich"
+  given-names: "Lukas"
+  orcid: "https://orcid.org/0000-0002-4048-7584"
+title: "tum_ds_testproject"
+version: 1.0.0
+doi: 10.5281/zenodo.10604219
+date-released: 2024-02-01
+url: "https://github.com/lukasheinrich/tum_ds_testproject"
